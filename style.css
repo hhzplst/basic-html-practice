@@ -1,0 +1,51 @@
+<style type="text/css">
+body {
+	background-color: #CCC;
+	margin:80px 80px 100px 100px;
+	overflow: scroll;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#334;
+	padding:20px;
+
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#334;
+	padding:15px;
+}
+textarea#textareaHeader{
+	position:fixed;
+	top:80px;
+	left:300px;
+}
+textarea#textareaHeader1{
+	position:fixed;
+	top:80px;
+	left:700px;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    background:white url(Magnifier.png) left center no-repeat;
+}
+div#content{
+	position: fixed;
+	top:150px;
+}
+ul{
+	list-style-type: none;
+}
+td {
+    border: 0px;
+}
+
+</style>

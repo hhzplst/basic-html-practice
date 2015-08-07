@@ -38,14 +38,70 @@ textarea#textareaHeader1{
     background:white url(Magnifier.png) left center no-repeat;
 }
 div#content{
-	position: fixed;
+	position: absolute;
 	top:150px;
+
 }
-ul{
-	list-style-type: none;
+div#leftDiv{
+	width:100px;
+	display:inline-block;
+	position: relative;
+	left:250px;
+	border:solid 2px black;
 }
-td {
-    border: 0px;
+div#rightDiv{
+	width:100px;
+	display: inline-block;
+	position: relative;
+	top:20px;
+	left:350px;
+	border:solid 2px black;
+}
+p#submit{
+	position: absolute;
+	left:350px;
+	top:300px;
+}
+#myAwesomeTable tr:nth-child(2n+1){
+	background-color: #eee;
+}
+
+#myAwesomeTable{
+	position: absolute;
+	left:200px;
+	top:100px;
+	border:2px solid black;
+	border-collapse:collapse;
+}
+#myAwesomeTable td{
+	padding: 10px;
+	border-right: 2px solid black;
+	outline-width: 100%;
+	white-space: nowrap;
+}
+#myAwesomeTable th{
+	border-right:2px solid black;
+	background-color: grey;
 }
 
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
